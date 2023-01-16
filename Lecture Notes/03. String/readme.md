@@ -82,10 +82,28 @@ console.log(full_name)
 ```
 
 ### 5. Template string
+
 ![Screenshot from 2022-11-25 12-48-51](https://user-images.githubusercontent.com/109052326/209422069-7ed7a393-c9a2-40a8-9c67-29b2334cd753.png)
 ![Screenshot from 2022-11-25 12-49-00](https://user-images.githubusercontent.com/109052326/209422070-cea62eab-ce2a-4abc-bbdd-3921d8dba3b0.png)
 ![Screenshot from 2022-11-25 12-49-05](https://user-images.githubusercontent.com/109052326/209422071-a72afbcb-bf3b-4302-9eb2-c70c6c66b45a.png)
 ![Screenshot from 2022-11-25 12-56-15](https://user-images.githubusercontent.com/109052326/209422072-65c94bda-1f23-4230-96fc-b6bfa64b3bc0.png)
+
+```js
+// Template string 
+let age = 22;
+let firstName = "harshit"
+
+// Dynamically replace the string
+// let aboutMe = "my name is " + firstName + " and my age is " + age; 
+
+// Make the template string
+let aboutMe = `my name is ${firstName} and my age is ${age}`
+
+// O/p the template made string
+console.log(aboutMe);
+```
+
+### 6. Typeof , string to number, number to string conversion
 ![Screenshot from 2022-11-25 12-56-51](https://user-images.githubusercontent.com/109052326/209422075-1b6ba1c7-0ec3-4fa6-a87f-9c4488ae0885.png)
 ![Screenshot from 2022-11-25 12-57-31](https://user-images.githubusercontent.com/109052326/209422076-1f3e128d-d86f-4e8c-8368-f3707d8f9814.png)
 ![Screenshot from 2022-11-25 12-58-04](https://user-images.githubusercontent.com/109052326/209422077-acb75c90-4d8d-4ff2-97bc-f34913a2d35b.png)
@@ -99,6 +117,55 @@ console.log(full_name)
 ![Screenshot from 2022-11-25 13-03-42](https://user-images.githubusercontent.com/109052326/209422085-ce0cba5d-fdd1-42be-b33e-07bfd3214089.png)
 ![Screenshot from 2022-11-25 13-03-52](https://user-images.githubusercontent.com/109052326/209422086-1690dcc0-2012-46a6-9dd5-6dbbd56b3b3f.png)
 
+#### Example 1
 
+```js
+// undefined 
+// null
+
+let firstName;
+console.log("Type of first name - ",typeof firstName);
+
+
+firstName = "Harshit";
+console.log("Type of firstname asssigned - ",typeof firstName, firstName);
+
+
+let myVariable = null;
+console.log("Type of myVariable assigned to null",myVariable);
+
+
+myVariable = "harshit";
+console.log("Type of myVariable assigned to string name",myVariable, typeof myVariable);
+console.log("Type of null - ",typeof null);
+//bug , error 
+
+
+// BigInt
+let myNumber = BigInt(12);
+let sameMyNumber = 123n;
+console.log(myNumber);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(myNumber+ sameMyNumber);
+
+```
+
+#### Example 2
+
+```js
+// Booleans & comparison operator true, false 
+
+let num1 = 7;
+let num2 = "7";
+
+console.log(num1<num2);
+
+// == vs === 
+console.log(num1 === num2);
+
+// != vs !==
+console.log(num1 !== num2);
+
+```
 
 

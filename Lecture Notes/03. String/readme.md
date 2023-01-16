@@ -161,16 +161,54 @@ console.log(myNumber+ sameMyNumber);
 let num1 = 7;
 let num2 = "7";
 
+// Display the o/p
 console.log(num1<num2);
 
 // == vs === 
+// Double equals will only check the values ignoring the datatype's
+consloe.log(num1 == num)
+
+// Triple equals will check the datatype too
 console.log(num1 === num2);
 
 // != vs !==
+// Double equals will check the value 
 console.log(num1 !== num2);
 
 ```
 
+#### Example 3
 
+```js
+
+// if else condition 
+
+// Declare the age var
+let age = 17;
+
+if(age>=18){
+     console.log("User can play ddlc");
+}
+else{
+     console.log("User can play mario");
+}
+
+let num = 13;
+
+if(num%2===0){
+     console.log("even");
+}else{
+    console.log("odd");
+}
+
+
+let firstName= 0;
+
+if(firstName){
+    console.log(firstName);
+}else{
+     console.log("firstName is kinda empty");
+}
+```
 
 

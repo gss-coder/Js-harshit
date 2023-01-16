@@ -181,34 +181,47 @@ console.log(num1 !== num2);
 
 ```js
 
-// if else condition 
+// If else condition 
 
 // Declare the age var
 let age = 17;
 
+// If case handling
 if(age>=18){
      console.log("User can play ddlc");
 }
+
+// Else case handling
 else{
      console.log("User can play mario");
 }
 
+// Declare the number
 let num = 13;
 
+// If case handling
 if(num%2===0){
      console.log("even");
-}else{
+}
+
+// Else case handling
+else{
     console.log("odd");
 }
 
-
+// Declare the integer
 let firstName= 0;
 
+// If case handling
 if(firstName){
     console.log(firstName);
-}else{
+}
+
+// Else case handling
+else{
      console.log("firstName is kinda empty");
 }
+
 ```
 
 

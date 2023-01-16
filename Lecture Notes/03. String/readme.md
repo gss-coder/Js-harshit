@@ -1,5 +1,6 @@
-## 3. String
+## 03. String
 
+### 1. String introduction
 ![Screenshot from 2022-11-25 12-18-54](https://user-images.githubusercontent.com/109052326/209422024-e88bfb44-ec3b-4d2b-878d-47534b4e447b.png)
 ![Screenshot from 2022-11-25 12-19-21](https://user-images.githubusercontent.com/109052326/209422025-5d2250fd-b2e7-4b14-83a8-b691b11bf5ad.png)
 ![Screenshot from 2022-11-25 12-19-28](https://user-images.githubusercontent.com/109052326/209422026-c05d2557-1f0f-4e06-bf00-aa4347d0247e.png)
@@ -8,6 +9,8 @@
 ![Screenshot from 2022-11-25 12-20-03](https://user-images.githubusercontent.com/109052326/209422029-bfc8246f-b72d-42ac-a01b-d9b5e6024951.png)
 ![Screenshot from 2022-11-25 12-20-50](https://user-images.githubusercontent.com/109052326/209422030-2e406560-b66b-44e0-9358-d8bb8e3a8314.png)
 ![Screenshot from 2022-11-25 12-20-54](https://user-images.githubusercontent.com/109052326/209422031-5e75613d-0a56-4a55-8e4c-64ec96c14917.png)
+
+### 2. String method's
 ![Screenshot from 2022-11-25 12-21-38](https://user-images.githubusercontent.com/109052326/209422032-7c7bb893-f68a-4865-8c49-8fe7f01b9e6b.png)
 ![Screenshot from 2022-11-25 12-21-41](https://user-images.githubusercontent.com/109052326/209422033-bc860a67-8564-46cc-851a-60b477809cf6.png)
 ![Screenshot from 2022-11-25 12-21-58](https://user-images.githubusercontent.com/109052326/209422035-ade20c91-4d9d-409a-9fba-dda0960da19d.png)
@@ -20,6 +23,9 @@
 ![Screenshot from 2022-11-25 12-25-25](https://user-images.githubusercontent.com/109052326/209422045-5469cefa-c2ad-47c9-98fb-423075baa1db.png)
 ![Screenshot from 2022-11-25 12-27-31](https://user-images.githubusercontent.com/109052326/209422046-60280d71-0006-437b-98de-8f98d4a338a2.png)
 ![Screenshot from 2022-11-25 12-27-43](https://user-images.githubusercontent.com/109052326/209422047-eaa05c29-41db-40da-863a-cdf73e0b6e6b.png)
+
+
+### 3. Type of operator
 ![Screenshot from 2022-11-25 12-40-33](https://user-images.githubusercontent.com/109052326/209422050-c0c17d73-621a-46b6-ac75-0af0935f17d2.png)
 ![Screenshot from 2022-11-25 12-40-39](https://user-images.githubusercontent.com/109052326/209422052-54d43142-2d90-4b78-b642-d76382a0ecc2.png)
 ![Screenshot from 2022-11-25 12-41-14](https://user-images.githubusercontent.com/109052326/209422053-b4e11669-3b79-4ece-9a1a-d1fa5824d5b1.png)
@@ -30,11 +36,52 @@
 ![Screenshot from 2022-11-25 12-45-39](https://user-images.githubusercontent.com/109052326/209422060-31ba9e54-d5ed-4593-92b9-60a5c5da6720.png)
 ![Screenshot from 2022-11-25 12-46-18](https://user-images.githubusercontent.com/109052326/209422061-96f6427d-3b85-4930-b3bc-88016dc2b0ff.png)
 ![Screenshot from 2022-11-25 12-46-23](https://user-images.githubusercontent.com/109052326/209422062-934f0b4f-6e4c-45ba-9ed0-373ca16e0260.png)
+
+
+### 4. String concatenation
 ![Screenshot from 2022-11-25 12-47-02](https://user-images.githubusercontent.com/109052326/209422063-ceec4715-7e13-4fdd-8ec5-ae6639d2920b.png)
 ![Screenshot from 2022-11-25 12-47-12](https://user-images.githubusercontent.com/109052326/209422064-35759729-78fe-40ed-a15a-b5ac0405437f.png)
 ![Screenshot from 2022-11-25 12-47-36](https://user-images.githubusercontent.com/109052326/209422065-14d2806a-1c7f-4319-9808-caddecc5be6f.png)
 ![Screenshot from 2022-11-25 12-48-10](https://user-images.githubusercontent.com/109052326/209422066-b96f4381-5520-47a5-beea-2416cf78b90f.png)
 ![Screenshot from 2022-11-25 12-48-13](https://user-images.githubusercontent.com/109052326/209422067-a717955e-ed9b-4ea6-bd69-ca9a5e763037.png)
+### String concatenation
+#### Example 1
+
+```js
+
+
+// 'use strict';
+
+// Declare the 2 string 
+let string1= "Ajay";
+let string2= "Nikumbh";
+
+// Concatenate 2 string's
+let full_name = string1 + ' ' +string2;
+
+// Display the full name
+console.log(full_name)
+```
+
+#### Example 2
+```js
+// 'use strict';
+
+// Declare the 2 string 
+let string1= "17";
+let string2= "10";
+
+// Concatenate 2 string's into the number 
+// Use the short trick i.e add +before the string 1
+let full_name = +string1 +  +string2;
+
+// Display the full name
+console.log(full_name)
+
+
+```
+
+### 5. Template string
 ![Screenshot from 2022-11-25 12-48-51](https://user-images.githubusercontent.com/109052326/209422069-7ed7a393-c9a2-40a8-9c67-29b2334cd753.png)
 ![Screenshot from 2022-11-25 12-49-00](https://user-images.githubusercontent.com/109052326/209422070-cea62eab-ce2a-4abc-bbdd-3921d8dba3b0.png)
 ![Screenshot from 2022-11-25 12-49-05](https://user-images.githubusercontent.com/109052326/209422071-a72afbcb-bf3b-4302-9eb2-c70c6c66b45a.png)
@@ -51,3 +98,7 @@
 ![Screenshot from 2022-11-25 13-03-16](https://user-images.githubusercontent.com/109052326/209422084-3ee475cd-8c1a-4dc9-b426-9ab0bad374f9.png)
 ![Screenshot from 2022-11-25 13-03-42](https://user-images.githubusercontent.com/109052326/209422085-ce0cba5d-fdd1-42be-b33e-07bfd3214089.png)
 ![Screenshot from 2022-11-25 13-03-52](https://user-images.githubusercontent.com/109052326/209422086-1690dcc0-2012-46a6-9dd5-6dbbd56b3b3f.png)
+
+
+
+

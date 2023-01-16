@@ -44,11 +44,10 @@
 ![Screenshot from 2022-11-25 12-47-36](https://user-images.githubusercontent.com/109052326/209422065-14d2806a-1c7f-4319-9808-caddecc5be6f.png)
 ![Screenshot from 2022-11-25 12-48-10](https://user-images.githubusercontent.com/109052326/209422066-b96f4381-5520-47a5-beea-2416cf78b90f.png)
 ![Screenshot from 2022-11-25 12-48-13](https://user-images.githubusercontent.com/109052326/209422067-a717955e-ed9b-4ea6-bd69-ca9a5e763037.png)
-### String concatenation
+
 #### Example 1
 
 ```js
-
 
 // 'use strict';
 
@@ -64,6 +63,7 @@ console.log(full_name)
 ```
 
 #### Example 2
+
 ```js
 // 'use strict';
 
@@ -88,13 +88,15 @@ console.log(full_name)
 ![Screenshot from 2022-11-25 12-49-05](https://user-images.githubusercontent.com/109052326/209422071-a72afbcb-bf3b-4302-9eb2-c70c6c66b45a.png)
 ![Screenshot from 2022-11-25 12-56-15](https://user-images.githubusercontent.com/109052326/209422072-65c94bda-1f23-4230-96fc-b6bfa64b3bc0.png)
 
+#### Example 1
+
 ```js
 // Template string 
 let age = 22;
 let firstName = "harshit"
 
 // Dynamically replace the string
-// let aboutMe = "my name is " + firstName + " and my age is " + age; 
+let aboutMe = "my name is " + firstName + " and my age is " + age; 
 
 // Make the template string
 let aboutMe = `my name is ${firstName} and my age is ${age}`
@@ -104,6 +106,7 @@ console.log(aboutMe);
 ```
 
 ### 6. Typeof , string to number, number to string conversion
+
 ![Screenshot from 2022-11-25 12-56-51](https://user-images.githubusercontent.com/109052326/209422075-1b6ba1c7-0ec3-4fa6-a87f-9c4488ae0885.png)
 ![Screenshot from 2022-11-25 12-57-31](https://user-images.githubusercontent.com/109052326/209422076-1f3e128d-d86f-4e8c-8368-f3707d8f9814.png)
 ![Screenshot from 2022-11-25 12-58-04](https://user-images.githubusercontent.com/109052326/209422077-acb75c90-4d8d-4ff2-97bc-f34913a2d35b.png)
@@ -167,5 +170,7 @@ console.log(num1 === num2);
 console.log(num1 !== num2);
 
 ```
+
+
 
 

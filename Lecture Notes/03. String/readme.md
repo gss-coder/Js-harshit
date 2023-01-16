@@ -256,7 +256,73 @@ console.log(drink);
 ```
 
 
+#### Example 5
 
+```js
+// And operator
+if(firstName[0] === "H"){
+     console.log("your name starts with H")
+}
+
+if(age > 18){
+    console.log("you are above 18");
+}
+
+if(firstName[0] === "H" && age>18){
+    console.log("Name starts with H and above 18");
+}
+
+else{
+     console.log("inside else");
+}
+
+
+// Or operator
+let firstName = "arshit";
+let age = 16;
+
+// If case
+if(firstName[0] === "H" || age>18){
+    console.log("inside if");
+}
+
+// Else case
+else{
+    console.log("inside else");
+}
+```
+
+#### Example 6
+
+```js
+// Nested if else
+
+// Declare the number
+let winningNumber = 19;
+
+// Prompt the number
+let userGuess = +prompt("Guess a number");
+
+// If case matching
+if(userGuess === winningNumber)
+{
+    console.log("Your guess is right!!");
+}
+
+// Else case handling
+else
+{
+    if(userGuess < winningNumber)
+    {
+        console.log("too low !!!");
+    }
+    
+    else
+    {
+        console.log("too high !!!");
+    }
+}
+```
 
 
 

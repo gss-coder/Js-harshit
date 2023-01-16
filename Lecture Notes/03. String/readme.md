@@ -224,4 +224,45 @@ else{
 
 ```
 
+#### Example 4
+
+```js
+// Ternary operator 
+
+let age = 4;
+let drink;
+
+// If case handling
+if(age>=5){
+     drink = "coffee";
+}
+
+// Else case handling
+else{
+     drink = "milk";
+}
+
+// Display the o/p
+console.log(drink);
+
+
+
+// Ternary operator / conditional operator 
+
+let age = 3;
+let drink = age >= 5 ? "coffee" : "milk";
+console.log(drink);
+
+```
+
+
+
+
+
+
+
+
+
+
+
 

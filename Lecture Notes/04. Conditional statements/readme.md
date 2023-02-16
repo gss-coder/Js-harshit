@@ -48,3 +48,140 @@ else
     console.log("firstName is kinda empty");
 }
 ```
+
+
+```js
+
+
+// Example 3 - And & or operator 
+
+
+if(firstName[0] === "H")
+{
+     console.log("your name starts with H")
+}
+
+if(age > 18)
+{
+    console.log("you are above 18");
+}
+
+if(firstName[0] === "H" && age>18)
+{
+    console.log("Name starts with H and above 18");
+}
+
+else
+{
+    console.log("inside else");
+}
+
+
+let firstName = "arshit";
+let age = 16;
+
+if(firstName[0] === "H" || age>18)
+{
+    console.log("inside if");
+}
+
+else
+{
+    console.log("inside else");
+}
+
+```
+
+
+#### 2. Ternary operator
+
+
+```js
+
+// Ternary operator 
+
+// Declare the required variable's
+let age = 4;
+let drink;
+
+// If else case
+if(age>=5)
+{
+   drink = "coffee";
+}
+else
+{
+   drink = "milk";
+}
+
+// O/p the drink variable
+console.log(drink);
+```
+
+
+```js
+// Ternary operator / conditional operator 
+
+let age = 3;
+let drink = age >= 5 ? "coffee" : "milk";
+console.log(drink);
+
+
+```
+
+
+#### 3. Guess the number
+
+```js
+
+// Nested if else
+// winning number 19 
+// 19 your guess is right, 17 too low , 20 too high 
+
+// Declare the variabl'e
+let winningNumber = 19;
+let userGuess = +prompt("Guess a number");
+
+// If case
+if(userGuess === winningNumber)
+{
+    console.log("Your guess is right!!");
+}
+
+else
+{
+    if(userGuess < winningNumber)
+    {
+        console.log("too low !!!");
+    }
+    else
+    {
+        console.log("too high !!!");
+    }
+}
+
+```
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

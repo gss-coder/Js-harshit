@@ -2,6 +2,7 @@
 
 #### 1. If else condition
 
+```js
 // Example 1: If-else condition 
 
 let age = 17;
@@ -14,8 +15,9 @@ else
 {
 	console.log("User can play mario");
 }
+```
 
-
+```js
 // Example 2: If-else condition 
 
 let num = 13;
@@ -29,8 +31,9 @@ else
 {
     console.log("odd");
 }
+```
 
-
+```js
 // Example 3: True false values
 // falsy values false,"",null,undefined,0,truthy ,"abc",1, -1
 
@@ -44,3 +47,4 @@ else
 {
     console.log("firstName is kinda empty");
 }
+```

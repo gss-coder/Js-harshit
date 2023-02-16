@@ -148,12 +148,16 @@ if(userGuess === winningNumber)
     console.log("Your guess is right!!");
 }
 
+// Else case
 else
 {
+    // If case
     if(userGuess < winningNumber)
     {
         console.log("too low !!!");
     }
+    
+    // Else case
     else
     {
         console.log("too high !!!");
@@ -163,7 +167,42 @@ else
 ```
 
 
+#### 4. Switch statement
 
+```js
+
+// Declare the day variable
+let day = 9;
+
+// Use the switch statement
+switch(day)
+{
+    case 0:
+        console.log("Sunday");
+        break; 
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thrusday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid Day");
+}
+
+```
 
 
 

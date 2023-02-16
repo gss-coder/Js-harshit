@@ -1,7 +1,6 @@
 ### Loops 
 
 #### 1. While loop
-// While loop - [0-9]
 
 ```js
 // While loop till 9 

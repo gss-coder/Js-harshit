@@ -36,4 +36,4 @@ console.log("Check if the object is array = ",Array.isArray(obj));
 
 
 
-
+#### 2. 

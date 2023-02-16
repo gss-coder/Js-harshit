@@ -24,3 +24,110 @@
 ![Screenshot from 2022-11-25 12-06-16](https://user-images.githubusercontent.com/37560890/209422005-d5ded521-2d85-40de-bffd-9ef49a6b1afc.png)
 ![Screenshot from 2022-11-25 12-08-37](https://user-images.githubusercontent.com/37560890/209422007-a8539919-4a5f-44d9-b074-c90a8c5ee119.png)
 ![Screenshot from 2022-11-25 12-09-10](https://user-images.githubusercontent.com/37560890/209422008-d0514d80-f671-4ff3-b572-d5a60278faab.png)
+
+#### 1. Console log the o/p 
+```js
+
+// console.log can print something on console 
+console.log("hello world");
+
+```
+
+#### 2. Variable's declaration
+
+```js
+"use strict";
+// Intro to variables
+// variables can store some information
+// we can use that information later
+// we can change that information later
+
+
+// declare a variable 
+var firstName = "Harshit";
+
+// Use a variable 
+console.log(firstName);
+
+// Change value 
+firstName = "Mohit";
+
+// O/p the firstname
+console.log(firstName);
+
+
+```
+
+
+#### 3. Variable defining rule's
+
+```js
+
+// Rules for naming variables 
+// you cannot start with number 
+1value (invalid)
+value1 (valid)
+
+var value1 = 2;
+console.log(value1);
+
+// You can use only undersore _ or dollar symbol 
+first_name (valid)
+_firstname (valid) 
+
+first$name (valid)
+$firstname (valid)
+
+// You cannot use spaces 
+var first_name = "harshit"; // snake case writing 
+var firstName = "harshit"; // camel case writing 
+first name (invalid)
+
+// Convention 
+// start with small letter and use camelCase 
+```
+
+#### 4. Let variable
+
+```js
+
+// Let keyword 
+// declare variable with let keyword 
+let firstName = "harshit";
+firstName = "Mohit";
+
+// O/p the ans
+console.log(firstName);
+
+```
+
+
+#### 5. Declare the consonants
+
+```js
+
+
+// Declare constants 
+const pi = 3.14;
+
+// O/p the ans
+console.log(pi);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
